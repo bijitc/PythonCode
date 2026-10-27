@@ -1,3 +1,8 @@
+# Length of String
+str = "Data Science"
+length = len(str)
+print("Length of String is:", length)   
+
 # Reverse a String
 text = "Data Science"
 # Reverse String 
