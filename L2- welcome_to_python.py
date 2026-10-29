@@ -4,7 +4,8 @@ print("Welcome to the world of programming!")
 #Print a Number
 print(4)
 
-#Next Line after print
+#New line
+print("Hello Python")
 print("Hello\nPython")
 
 #Pass multiple arguments for printing
