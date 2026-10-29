@@ -1,8 +1,9 @@
 # Length of String
 str = "Data Science"
 length = len(str)
-print("Length of String is:", length)   
+print("Length of the String is:", length)   
 
+"""
 # Reverse a String
 text = "Data Science"
 # Reverse String 
@@ -10,10 +11,11 @@ text = "Data Science"
 revText = text[::-1] 
 text = revText
 print("Reverse of given String is: ", text)
+"""
 
 # String Slicing based on indexing
 # str[0] = 'D', str[1] = 'a', str[2] = 't', str[3] = 'a'
-str = "Data Science"
+str = "Data Science"    
 slice = str[0:4] # Slice
 print("Sliced String is:", slice)
 
