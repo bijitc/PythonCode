@@ -16,7 +16,7 @@ id_text = str(id) #str -> Text/String
 rating_text = str(rating) #str -> Text/String
 is_active_text = str(is_active) #str -> Text/String
 
-# PART 4: Print the complete secret agent badge
+# PART 5: Print the complete secret agent badge
 print("======== SECRET AGENT BADGE ========")
 print("AGENT NAME: " + name)  
 print("AGENT ID: " + id_text)  
