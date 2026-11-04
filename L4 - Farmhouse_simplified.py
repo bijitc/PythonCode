@@ -21,8 +21,8 @@ print("Better than last year? ", total > last_year)
 
 # PART 4: More Assignment Operators
 bonus = 15
-# income = income + 15
-income += 15
+# income = income + 15 # updating a variable
+income += 15 # Increment
 print("Income after bonus:", income)
 
 # PART 5: More Arithmetic Operators
