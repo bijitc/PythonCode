@@ -18,10 +18,9 @@ is_raining = input("Is it raining today? (yes/no): ")
 if is_raining == "yes":
     print("Bring an umbrella!")
 
-
 print("Weather check complete!")
 
-# PART 10: Print the final outfit summary
+# PART 5: Print the final outfit summary
 print("===== WEATHER OUTFIT PICKER =====")
 print("Temperature:", temperature)
 print("Outfit Chosen:", outfit)
