@@ -1,5 +1,5 @@
 # PART 1: Ask for today's temperature
-temperature = int(input("Enter today's temperature in Celsius: "))
+temperature = int(input("Enter today's temperature in Celsius: ")) 
 
 # PART 2: Decide between a jacket and a t-shirt
 if temperature < 25:
