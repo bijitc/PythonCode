@@ -11,7 +11,8 @@ print()
 print(f"=== Your Plan for {day} ===")
 print("-" * 35)
 
-# Topic 1 -- if-elif-else: classify the day
+
+# Topic 1 -- if-elif-else: classify the day 
 if day in ("Saturday", "Sunday"):
     print("Day type    : Weekend - enjoy your free time!")
 elif day == "Monday":
