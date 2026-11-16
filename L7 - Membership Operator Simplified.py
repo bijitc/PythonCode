@@ -1,8 +1,8 @@
 # Membership Operators
-score1 = 90
-score2 = 95
+maths = 90
+english = 95
 
-total = score1 + score2 
+total = maths + english 
 avg = int(total / 2)
 
 validRange = range(0, 101)
