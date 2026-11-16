@@ -1,6 +1,6 @@
 # Smart Day Planner
 
-day = input("What day is it? (Monday to Sunday): ")
+day = input("What day is today? (Monday to Sunday): ")
 hw_complete = input("Is your homework done? (yes/no): ")
 
 
@@ -21,9 +21,9 @@ else:
     print("Morning: Reach school on time!")
 
 # NOT Operator
-if hw_complete:
+if hw_complete:    
     print("Evening: Enjoy your free time!")
-if not hw_complete:
+if not hw_complete: 
     print("Evening: Finish your homework in time!")
 
 # AND Operator
