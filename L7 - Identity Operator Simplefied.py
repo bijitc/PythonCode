@@ -5,6 +5,8 @@ x = 20
 y = x
 if (x is y):
     print("x & y SAME identity")
+if (type(x) is int):
+    print("x is an Integer")
 
 x = 20
 y = 30
