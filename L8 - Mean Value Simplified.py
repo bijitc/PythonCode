@@ -5,10 +5,10 @@
 count = 3
 incorrect_mean = 30
 
-wrong_number = 50
+incorrect_number = 50
 correct_number = 20
 
 incorrect_sum = incorrect_mean*count
-correct_sum = incorrect_sum - wrong_number + correct_number
+correct_sum = incorrect_sum - incorrect_number + correct_number
 correct_mean = correct_sum/count
 print("Correct mean value is: ", correct_mean)

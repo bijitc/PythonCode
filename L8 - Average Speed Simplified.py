@@ -1,13 +1,14 @@
-a = 10
-b = 20
-c = 30
+# Speeds
+Rohit = 20
+Anand = 30
+Riya = 40
 
-mean = (a + b + c) / 3
-print("Mean: ", mean)
+average = (Riya + Anand + Rohit)/3
+print("Average Speed: ", average, " km/hr")
 
-if a < mean:
-    print("a is just less than mean")
-elif b < mean:
-    print("a is just less than mean")
-elif c < mean:
-    print("a is just less than mean")
+if Riya > average:
+    print("Riya is faster than average.")
+elif Anand > average:
+    print("Anand is faster than average.")
+elif Rohit > average:
+    print("Rohit is faster than average.")
