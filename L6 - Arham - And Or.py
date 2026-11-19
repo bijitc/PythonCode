@@ -1,12 +1,18 @@
-a = 10
-b = -10
-c = 0
-  
-if a > 0 or b > 0 or c > 0:
-    print("At least one number is positive.")
-else:
-    print("None of the numbers are positive.")
+day = input("Enter day of the week: ")
+age = int(input("Enter your age: "))
 
-if a > b and c > b:
-    print("b is the smallest number.")
+weekend = False
+
+# OR Operator
+if day.lower() == "saturday" or day.lower() == "sunday":
+    weekend = True
+    print("It's weekend! Have fun!")
+else:
+    print("It's a weekday. Time to work hard!")
+
+# AND Operator
+if age >= 10 and weekend:
+    print("You can access the pool. Enjoy your swim!")
+else:
+    print("Swimming not allowed!")
 
