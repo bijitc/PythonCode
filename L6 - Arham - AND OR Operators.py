@@ -16,3 +16,4 @@ if age >= 10 and weekend:
 else:
     print("Swimming not allowed!")
 
+
