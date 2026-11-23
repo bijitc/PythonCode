@@ -1,0 +1,32 @@
+# Take input of number of units consumed from the user
+units = int(input("Enter number of units consumed : "))
+
+# Check conditions of units consumed 
+# Then calculate amount and tax accordingly
+
+
+# Check for units less than 50
+if units <= 50:
+    amount = units * 2.60 
+    tax = 25 
+
+# Check for units less than 100
+if units >50 and units <= 100:
+    amount = 50*2.6 + ((units - 50) * 3.25)
+    tax = 35
+
+# Check for units less than or equal to 200
+if units >100 and units <= 200:
+    amount = 50*2.6 + 50*3.25 + ((units - 100) * 5.26)
+    tax = 45
+
+# Check for all the cases other than mentioned 
+# When units consumed are more than 200
+else:
+    amount = 50*2.6 + 50*3.25 + 100*5.26 + ((units - 200) * 8.45)
+    tax = 75
+
+# Calculate and Display the total electricity bill
+# total amount = amount + surcharge
+total = amount + tax
+print("Electricity Bill: Rs.", total)
