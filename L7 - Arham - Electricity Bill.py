@@ -16,7 +16,7 @@ elif units >50 and units <= 100:
     tax = 35
 
 # Check for all the cases other than mentioned 
-# When units consumed are more than 200
+# When units consumed are more than 100
 else:
     amount = 50*2.6 + 50*3.25 + ((units - 100) * 8.45)
     tax = 45
