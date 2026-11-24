@@ -22,6 +22,6 @@ else:
     tax = 45
 
 # Calculate and Display the total electricity bill
-# total amount = amount + surcharge
+# total amount = amount + tax
 total = amount + tax
 print("Electricity Bill: Rs.", total)
