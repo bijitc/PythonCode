@@ -6,6 +6,8 @@ if day == "sat":
         print("python class")
     else:
         print("no class today")
+elif day == "sun":
+    print("watch a movie")
 else:
     print("no class today")
 
