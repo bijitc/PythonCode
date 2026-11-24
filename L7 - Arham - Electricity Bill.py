@@ -11,7 +11,7 @@ if units <= 50:
     tax = 25 
 
 # Check for units less than 100
-if units >50 and units <= 100:
+elif units >50 and units <= 100:
     amount = 50*2.6 + ((units - 50) * 3.25)
     tax = 35
 
