@@ -1,8 +1,8 @@
-numerator = int(input("Enter the numerator: "))
-denominator = int(input("Enter the denominator: "))
+num1 = 8
+num2 = 5
 
 # Modulus (Remainder)
-if numerator%denominator==0:
-  print("Numerator is divisible by denominator")
+if num1%num2==0:
+  print("num1 is divisible by num2")
 else:
-  print("Numerator is not divisible by denominator")
+  print("num1 is not divisible by num2")
