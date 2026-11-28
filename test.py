@@ -1,16 +1,4 @@
-day = "sat"
-homework = False
-
-if day == "sat":
-    if not homework:
-        print("python class")
-    else:
-        print("no class today")
-elif day == "sun":
-    print("watch a movie")
-else:
-    print("no class today")
-
-# if day == "sat" and not homework:
-#    print("python class")
-  
+x = 1
+while x<6:
+    print(x)
+    x+=1
